@@ -11,7 +11,7 @@ export default {
     'scope-enum': [
       2,
       'always',
-      ['api', 'ui', 'docs', 'config', 'test', 'chore']
+      ['api', 'ui', 'docs', 'config', 'test', 'chore', 'db', 'model', 'deps']
     ]
   }
 };
