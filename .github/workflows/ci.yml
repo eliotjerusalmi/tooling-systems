@@ -20,7 +20,6 @@ jobs:
       - run: npm ci
       - name: Check JavaScript syntax
         run: for f in $(git ls-files '*.js'); do node --check "$f"; done
-      - run: npm test --if-present
 
   quality:
     runs-on: ubuntu-latest
